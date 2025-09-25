@@ -1,8 +1,13 @@
 #include <tumour_model/Model.hpp>
 
+#include <tumour_model/Pancreas.hpp>
 #include <vector>
 
 namespace tumour_model {
+
+using ::Cell;
+using ::Pancreas;
+using ::Params;
 
 Pancreas* SeedAndGrowToStartVolume(double p0, double psc, int dmax, int gage, int page, double startVolume) {
     Params* parameters = new Params(p0, psc, dmax, gage, page);
@@ -87,4 +92,4 @@ std::vector<double> FullSimulation(double p0, double psc, int dmax, int gage, in
     return tumourVolumes;
 }
 
-}
+} 

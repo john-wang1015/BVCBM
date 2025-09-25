@@ -9,7 +9,7 @@
 
 using namespace::std;
 
-double totalTime = 0;
+inline double totalTime = 0;
 
 class Pancreas
 {

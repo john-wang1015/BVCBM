@@ -2,7 +2,7 @@
 
 #include <random>
 
-std::uniform_real_distribution<double> uniform_random(0.0, 1.0);
+inline std::uniform_real_distribution<double> uniform_random(0.0, 1.0);
 
 class Params
 {
@@ -43,8 +43,8 @@ public:
     static const int tinterval;
 };
 
-const double Params::s = 3.03;
-const double Params::mu = 0.01;
-const double Params::Delta_t = 60;
-const double Params::rmin = 2;
-const int Params::tinterval = 24;
+inline const double Params::s = 3.03;
+inline const double Params::mu = 0.01;
+inline const double Params::Delta_t = 60;
+inline const double Params::rmin = 2;
+inline const int Params::tinterval = 24;
