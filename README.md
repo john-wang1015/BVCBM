@@ -58,8 +58,7 @@ All the parameters values can be user-defined and we recommend to use flat prior
 
 ## Reference
 If you find the code useful for your research, please consider citing
-- For BVCBM
-- 
+
 ```bib
   @article{wang2024calibration,
   title={Calibration of agent based models for monophasic and biphasic tumour growth using approximate Bayesian computation},
