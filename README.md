@@ -60,7 +60,7 @@ All the parameters values can be user-defined and we recommend to use flat prior
 If you find the code useful for your research, please consider citing
 
 ```bib
-  @article{wang2024calibration,
+@article{wang2024calibration,
   title={Calibration of agent based models for monophasic and biphasic tumour growth using approximate Bayesian computation},
   author={Wang, Xiaoyu and Jenner, Adrianne L and Salomone, Robert and Warne, David J and Drovandi, Christopher},
   journal={Journal of Mathematical Biology},
@@ -73,7 +73,7 @@ If you find the code useful for your research, please consider citing
 ```
 and
 ```bib
-    @article{jenner2020enhancing,
+@article{jenner2020enhancing,
   title={Enhancing oncolytic virotherapy: Observations from a Voronoi Cell-Based model},
   author={Jenner, Adrianne L and Frascoli, Federico and Coster, Adelle CF and Kim, Peter S},
   journal={Journal of Theoretical Biology},
